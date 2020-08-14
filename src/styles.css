@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +10,7 @@
 }
 
 .vl {
-  border-left: 4px solid black;
+  border-left: 2px solid rgb(105, 105, 105);
   height: 150%;
   position: absolute;
   left: 15%;
@@ -20,7 +21,8 @@
   line-height:3 ;
 }
 h1 {
-    color: rgb(11, 27, 43);
+    background: rgb(11, 27, 43);
+    color:white;
     margin-top: auto;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 250%;
@@ -65,22 +67,25 @@ body, input[type="text"], button {
 }
 .button{
   background-color: white;
-  border: 1px solid black;
-  border-color: black; 
+  border: 1px solid rgb(105, 105, 105);
+  border-color: rgb(105, 105, 105); 
   color: black;
   padding: 30px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-style: 'Alata';
   font-size: 16px;
   cursor: pointer;
   width: 100%;
 }
 .button:hover{
-  background-color: rgb(37, 33, 53);
+  background-color: rgb(11, 27, 43);
   color: white;
 }
+
   /* everywhere else */
   * {
     font-family: Arial, Helvetica, sans-serif;
   }
+
