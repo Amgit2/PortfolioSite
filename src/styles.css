@@ -136,12 +136,12 @@ body, input[type="text"], button {
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 30px ;
+    box-shadow: 0 0 30px;
     position: relative;
     -webkit-transition-property: color;
     transition-property: color;
-    -webkit-transition-duration: 0.9s;
-    transition-duration: 0.9s;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
   }
   .hvr-bounce-to-bottom:before {
     content: "";
@@ -154,14 +154,14 @@ body, input[type="text"], button {
     background: rgb(11, 27, 43);
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
-    -webkit-transform-origin: 50% 0;
-    transform-origin: 50% 0;
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
     -webkit-transition-property: transform;
     transition-property: transform;
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: color;
+    transition-timing-function: color;
   }
   .hvr-bounce-to-bottom:hover, .hvr-bounce-to-bottom:focus, .hvr-bounce-to-bottom:active {
     color: rgba(255, 255, 255, 0.822);
