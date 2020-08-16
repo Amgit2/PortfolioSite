@@ -160,8 +160,8 @@ body, input[type="text"], button {
     transition-property: transform;
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
-    -webkit-transition-timing-function: color;
-    transition-timing-function: color;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
   }
   .hvr-bounce-to-bottom:hover, .hvr-bounce-to-bottom:focus, .hvr-bounce-to-bottom:active {
     color: rgba(255, 255, 255, 0.822);
