@@ -1,5 +1,5 @@
 import { Component, Output, EventEmitter } from '@angular/core';
-
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +9,8 @@ import { Component, Output, EventEmitter } from '@angular/core';
 
 export class AppComponent {
 
+  faCoffee = faCoffee;
+  
   @Output() public childEvent = new EventEmitter(); 
 
   title = 'Amit Hiremath';
