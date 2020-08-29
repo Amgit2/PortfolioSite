@@ -8,7 +8,16 @@
   vertical-align: baseline;
   box-sizing: border-box;
 }
-
+.pic-div{
+  position: relative;
+}
+.profilepic{
+  position: absolute; 
+  top: 160px; 
+  left: 35%; 
+  width: 350px; 
+  height: 450px;  
+}
 html{
   background: rgb(11, 27, 43);
   background-size: cover;
@@ -22,7 +31,8 @@ html{
   top: 10;
 }
 .header{
-  line-height:3 ;
+  position: absolute;
+  top: 60px; 
 }
 .footer{
 
@@ -30,17 +40,15 @@ html{
 }
 
 h1 {
-    background: rgb(11, 27, 43);
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 500%;
-    line-height: 4;
-    text-align: center;
+  background: rgb(11, 27, 43);
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 500%;
+  text-align: center;
 }
 h2 {
   color: white;
   text-align: center;
-  bottom: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 300%;
   font-weight: lighter;
