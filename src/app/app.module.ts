@@ -6,20 +6,23 @@ import {HttpClientModule} from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TestComponent } from './test/test.component';
-import { EmployeeService } from './employee.service';
-import { EmployeeListComponent } from './employee-list/employee-list.component';
-import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
 //import { MessagesComponent } from './messages.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NavbarComponent } from './navbar/navbar.component';
+import { IntroductionComponent } from './introduction/introduction.component';
+import { EducationComponent } from './education/education.component';
+import { WorkExpComponent } from './work-exp/work-exp.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestComponent, 
-    EmployeeListComponent,
-    EmployeeDetailComponent
+    NavbarComponent,
+    IntroductionComponent,
+    EducationComponent,
+    WorkExpComponent,
+    AboutMeComponent
     //MessagesComponent
   ],
   imports: [
@@ -29,7 +32,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HttpClientModule, FontAwesomeModule
 
   ],
-  providers: [EmployeeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

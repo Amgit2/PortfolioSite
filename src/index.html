@@ -1,42 +1,18 @@
 <!doctype html>
 
 <html lang="en">
-<div style = "background: rgb(11, 27, 43)>
+<div style = "background: rgb(11, 27, 43)">
   <head>
+
     <meta charset="utf-8">
-    <!--<span class  = "border-top border-primary"> </span> -->
-    <style type ="text/css">
-      header{margin: 0;}
-      head{margin: 0;} 
-      body{margin: 0;}
-    </style>
-    <h1> Amit Hiremath </h1>
     <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
   </head>
 
   <body>
-      <!--<app-root></app-root>-->
+    <app-root></app-root>
+    <router-outlet></router-outlet>
   </body>
-</div>
-
-<div class = "button-group">
-  <button class = "button hvr-bounce-to-bottom">
-    <i class="fa fa-hand-spock fa-1x" aria-hidden="true"></i> Introduction
-  </button>
-  <button class = "button hvr-bounce-to-bottom" (click) = showEdu()> 
-    <i class="fa fa-book fa-1x" aria-hidden="true"></i> Education
-  </button>
-  <button class = "button hvr-bounce-to-bottom" (click) = showWE()>
-  <i class="fab fa-black-tie fa-1x" aria-hidden="true"></i> Work Experience
-  </button>
-  <button class = "button hvr-bounce-to-bottom" (click) = showAboutMe()>
-    <i class="fas fa-user fa-1x" aria-hidden="true"></i> About Me
-  </button>
-  <button class = "button hvr-bounce-to-bottom" (click) = showBoi()> 
-    Boi Lets do this
-  </button>
-</div>
 
 </html>

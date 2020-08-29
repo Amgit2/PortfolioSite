@@ -1,45 +1,4 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
-<div style = "text-align: center;">
-    <h1> 
-      {{title}}
-    </h1>
-    <hr style="border: 2px solid rgb(11, 27, 43);" /> 
-    <!-- <div class = "vl"> </div> -->
-   
-    <h2>
-    {{name}}  {{message}}
-    </h2>
-</div>
-<!--<img src = "https://i.ytimg.com/vi/kJ2dr9jAThY/maxresdefault.jpg" alt = "Gifff" width="500" height="150">-->
-<div class = "row">
-    <div class = "column side">
-        <button class = "button" (click) = showIntro()>
-          <i class="fa fa-hand-spock fa-1x" aria-hidden="true"></i>       Introduction
-        </button><br>
-        <button class = "button" (click) = showEdu()> 
-          <i class="fa fa-book fa-1x" aria-hidden="true"></i> Education
-        </button><br>
-        <button class = "button" (click) = showWE()>
-          <i class="fab fa-black-tie fa-1x" aria-hidden="true"></i>
-           Work Experience</button><br>
-        <button class = "button" (click) = showAboutMe()>
-          <i class="fas fa-user fa-1x" aria-hidden="true">
-          </i> About Me</button><br>
-        <button class = "button" (click) = showBoi()> Boi Lets do this</button><br>
-    </div>
-    <div class = "column middle"> 
-        <h2>
-          {{subheading}}
-        </h2> 
-        <p> {{content}} </p>  
-    </div>
-  
-</div>
 
-<!--
-
-<app-employee-list></app-employee-list>
-<app-employee-detail></app-employee-detail>
-<app-test (changeTitleEvent)= "title=$event" (childEvent)= "message=$event" [parentData]="name"></app-test>
-
--->
+<app-navbar></app-navbar>
+<router-outlet> </router-outlet>
