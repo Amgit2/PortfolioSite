@@ -1,0 +1,10 @@
+.pic-div{
+    position: relative;
+  }
+.profilepic{
+    position: absolute; 
+    top: 160px; 
+    left: 35%; 
+    width: 350px; 
+    height: 450px;  
+  }

@@ -8,16 +8,7 @@
   vertical-align: baseline;
   box-sizing: border-box;
 }
-.pic-div{
-  position: relative;
-}
-.profilepic{
-  position: absolute; 
-  top: 160px; 
-  left: 35%; 
-  width: 350px; 
-  height: 450px;  
-}
+
 html{
   background: rgb(11, 27, 43);
   background-size: cover;
@@ -31,8 +22,8 @@ html{
   top: 10;
 }
 .header{
-  position: absolute;
-  top: 60px; 
+  padding: 20px; 
+  text-align: left;
 }
 .footer{
 
@@ -48,7 +39,6 @@ h1 {
 }
 h2 {
   color: white;
-  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 300%;
   font-weight: lighter;
@@ -57,15 +47,15 @@ h2 {
 
 .column{
   float: left; 
-  padding: 0px; 
+  padding: 50px; 
 }
 
 .column.side{
-  width: 15%; 
+  width: 20%; 
 }
 
 .column.middle{
-  width: 60%; 
+  width: 50%; 
   margin: 2em;
 }
 
