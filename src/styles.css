@@ -41,23 +41,32 @@ h2 {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 300%;
-  font-weight: lighter;
+  font-weight: bolder;
   line-height: 2;
 }
 h3{
+  position: relative;
+  left: 20px;
+  top: -30px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 200%;
   font-weight: lighter;
   line-height: 2;
-  text-align: center;
-  text-decoration: underline;
-
+  margin-top: -60px; 
+}
+.column.middle img{
+  float:left;
+  width: 100px;
+  height: 100px; 
+  margin-top: -110px; 
+  margin-left: 80px;
 }
 
 .column{
   float: left; 
   padding: 0px; 
+  margin-top: 50px;
 }
 
 .column.side{
@@ -65,12 +74,16 @@ h3{
 }
 
 .column.middle{
-  list-style-type: none;
-  margin: 10px; 
+  
   width: 65%; 
   height: 490px; 
+  border: thin solid rgb(83, 83, 131); 
+  border-top-right-radius: 10px;
+  margin-top: 60px;
 }
-.row{ 
+
+.row{
+  margin-top: 20px;
 }
 .row:after{
   content: ""; 
@@ -84,9 +97,10 @@ ul{
   color: white; 
   padding: 10px; 
   margin-left: 20px;
+  margin-top: 40px; 
 }
 li{
-  padding: 5px;
+  padding: 10px;
 }
 
 body {

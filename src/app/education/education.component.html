@@ -4,15 +4,16 @@
 </div>
 <div class = "row">
     <div class = "column side">
-        <button id ="nyit-button" class = "hvr-rectangle-in" (click)="nyitClick()"> </button>
-        <button id ="ku-button" class = "hvr-rectangle-in" (click)="kuClick()"> </button>
-        <button id ="tisb-button" class = "hvr-rectangle-in" (click)="tisbClick()"> </button>
+        <button id ="nyit-button" class = "hvr-rectangle-in" (click)="nyitClick()"></button>
+        <button id ="ku-button" class = "hvr-rectangle-in" (click)="kuClick()"></button>
+        <button id ="tisb-button" class = "hvr-rectangle-in" (click)="tisbClick()"></button>
     </div>
     <div class = "column middle">
+        <img src = {{imgSrc}}>
         <h3>{{schoolName}}</h3>
         <ul>
-            <li>Master of Computer Science</li>
-            <li> Class of 2021</li>
+            <li>{{degree}}</li>
+            <li>{{years}}</li>
         </ul>
     </div>
 </div>
