@@ -2,6 +2,20 @@
     box-sizing: border-box;
     z-index: 5;
 }
+h4{
+  position: relative;
+  left: 20px;
+  top: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  font-weight: lighter;
+  line-height: 2;
+}
+
+ul{
+  margin-top: -10px;
+}
 
 button{
   width: 300px;
@@ -15,6 +29,27 @@ button{
 #nyit-button:before{
   content:"Research Assistant";
 }
+#gentherm-button{
+  background-image: url('/assets/img/gentherm.png');
+  background-size: cover; 
+}
+#gentherm-button:before{
+content: "Co-op Engineer";
+}
+#fev-button{
+  background-image: url('/assets/img/FEV.png');
+  background-size: cover; 
+}
+#fev-button:before{
+content: "Co-op Engineer";
+}
+#calbay-button{
+  background-image: url('/assets/img/calbay.jpg');
+  background-size: cover; 
+}
+#calbay-button:before{
+content: "Co-op Engineer";
+}
 .column.middle-we{
     width: 65%; 
     border: thin solid rgb(83, 83, 131); 
@@ -22,6 +57,7 @@ button{
     border-bottom-left-radius: 10px;
     margin-top: 60px;
 }
+
 
 /*animation*/
 /* Rectangle In */
