@@ -1,15 +1,35 @@
-import { Component, Output, EventEmitter } from '@angular/core';
+
+import { Component, Output, EventEmitter, OnInit } from '@angular/core';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import {
+  trigger,
+  state,
+  style,
+  animate,
+  transition,
+  // ...
+} from '@angular/animations';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: []
+  styleUrls: [],
+  animations:[
+
+  ]
 })
 
-export class AppComponent {
+export class AppComponent implements OnInit{
+  ngOnInit(): void{
+  }
 
+  emittedString: String = '';
+  scrolling(name){
+    document.getElementById(name).scrollIntoView({block:'start', behavior: 'smooth'});
+  }
+  
   faCoffee = faCoffee;
+  
   
   @Output() public childEvent = new EventEmitter(); 
 

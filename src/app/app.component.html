@@ -1,4 +1,12 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
-
-<app-navbar></app-navbar>
-<router-outlet> </router-outlet>
+<app-new-navbar (pageName)= 'scrolling($event)'></app-new-navbar>
+<div class = "filler" id = "home"></div> 
+<app-introduction></app-introduction>
+<div class = "filler" id = "edu"></div> 
+<app-education></app-education>
+<div class = "filler" id = "work"></div>
+<app-work-exp></app-work-exp>
+<div class = "filler" id = "proj"></div>
+<app-projects></app-projects>
+<div class = "filler" id = "aboutme"></div>
+<app-about-me ></app-about-me>

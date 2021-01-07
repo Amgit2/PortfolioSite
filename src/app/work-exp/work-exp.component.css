@@ -6,7 +6,7 @@ h4{
   position: relative;
   left: 20px;
   top: 5px;
-  color: white;
+  color: rgb(43, 193, 204);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 150%;
   font-weight: lighter;
@@ -51,8 +51,8 @@ content: "Co-op Engineer";
 content: "Co-op Engineer";
 }
 .column.middle-we{
+    background-color: white;
     width: 65%; 
-    border: thin solid rgb(83, 83, 131); 
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-top: 60px;
