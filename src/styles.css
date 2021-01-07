@@ -7,12 +7,10 @@
   font-size: 100%;
   vertical-align: baseline;
   box-sizing: border-box;
+  font-family: "Palatino Linotype", "Book Antiqua", serif;
 }
 
-html{
-  background: rgb(11, 27, 43);
-  background-size: cover;
-}
+
 .vl {
   border-left: 2px solid rgb(105, 105, 105);
   height: 150%;
@@ -21,9 +19,11 @@ html{
   margin-left: -3px;
   top: 10;
 }
-.header{
-  padding: 20px; 
-  text-align: left;
+.heading{
+  background-color: white;
+  height: 200px;
+  overflow: hidden;
+  opacity: 0.9;
 }
 .footer{
 
@@ -31,15 +31,12 @@ html{
 }
 
 h1 {
-  background: rgb(11, 27, 43);
   color:white;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 500%;
   text-align: center;
 }
 h2 {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(59, 194, 228);
   font-size: 300%;
   font-weight: bolder;
   line-height: 2;
@@ -49,7 +46,6 @@ h3{
   left: 20px;
   top: -30px;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 200%;
   font-weight: lighter;
   line-height: 2;
@@ -74,10 +70,9 @@ h3{
 }
 
 .column.middle{
-  
+  background-color: white;
   width: 65%; 
   height: 490px; 
-  border: thin solid rgb(83, 83, 131); 
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   margin-top: 60px;
@@ -95,7 +90,7 @@ p{
   color: white;
 }
 ul{
-  color: white; 
+  color: rgb(17, 207, 119); 
   padding: 10px; 
   margin-left: 20px;
   margin-top: 40px; 
@@ -105,12 +100,43 @@ li{
   margin-top: 10px;
 }
 
+html{
+  height:100%;
+}
+
 body {
- margin: 2em;
+ /*margin: 0;
+ background-image: url('/assets/img/landing-page.JPG');
+ background-size: cover;*/
+ height: 100%;
+}
+
+.wrapper{
+  height:100%;
+}
+.fixed-bg{
+  background-image: url('/assets/img/landing-page.JPG');
+
+  height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.body-content{
+  margin: 0;
+  /*
+  background: rgb(11, 27, 43);
+  background-size: cover;
+  */
+  margin-left: 60px;
 }
 body, input[type="text"], button {
   color: rgb(0, 0, 0);
-  font-family: Arial, Georgia;
+  font-family: Palatino;
 }
 
 @media screen and (max-width: 600px) {
