@@ -3,8 +3,79 @@
   }
 .profilepic{
     position: absolute; 
-    top: 160px; 
+    top: 0px; 
     left: 35%; 
-    width: 350px; 
-    height: 450px;  
+    width: 325px; 
+    height: 400px;  
+  }
+.footer{
+  position: fixed;
+  left: 35.5%;
+  text-align: center;
+  bottom: 0;
+}
+
+.footer button{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 0px;
+  height: 45px;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100px;
+  margin: 5px;
+}
+
+.footer button:hover {
+  background-color:rgb(11, 27, 43) ;
+  color: white; 
+}
+.footer button:focus {
+  color: white; 
+}
+  
+  /*bounce to bottom animation*/
+  
+  .hvr-bounce-to-bottom {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 6px 8px -2px;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+  }
+  .hvr-bounce-to-bottom:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    background: rgb(11, 27, 43);
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-bounce-to-bottom:hover, .hvr-bounce-to-bottom:focus, .hvr-bounce-to-bottom:active {
+    color: white;
+  }
+  .hvr-bounce-to-bottom:hover:before, .hvr-bounce-to-bottom:focus:before, .hvr-bounce-to-bottom:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   }
